@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Hasil Data Mahasiswa</title>
+    </head>
+    <body>
+<form>
+    <table>
+    <tr>
+        <th>Nama Siswa</th>
+        <th>:</th>
+        <td>
+        <td><?$namasiswa;?></td>
+        </td>
+    </tr>
+    <tr>
+        <th>NIS</th>
+        <th>:</th>
+        <td>
+        <td><?$nis;?></td>
+        </td>
+    </tr>
+    <tr>
+        <th>Kelas</th>
+        <th>:</th>
+        <td>
+        <td><?$kelas;?></td>
+        </td>
+    </tr>
+    <tr>
+        <th>Tanggal Lahir</th>
+        <th>:</th>
+        <td>
+        <td><?$tgllahir;?></td>
+        </td>
+    </tr>
+    <tr>
+        <th>Tempat Lahir</th>
+        <th>:</th>
+        <td>
+        <td><?$tmptlahir;?></td>
+        </td>
+    </tr>
+    <tr>
+        <th>Alamat</th>
+        <th>:</th>
+        <td>
+        <td><?$alamat;?></td>
+        </td>
+    </tr>
+    <tr>
+        <th>Jenis Kelamin</th>
+        <th>:</th>
+        <td>
+        <td><?$jeniskl;?></td>
+        </td>
+    </tr>
+    <tr>
+        <th>Agama</th>
+        <th>:</th>
+        <td>
+        <td><?$agama;?></td>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="<?= base_url('Dlemas'); ?>">Kembali Ke Menu Form</a>
+        </td>
+    </tr>
+    </table>
+</form>
+    </body>
+</html>
